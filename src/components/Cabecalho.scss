@@ -1,0 +1,76 @@
+header {
+  display: grid;
+  grid-template-rows: auto auto; 
+  grid-template-columns: auto auto; 
+  align-items: center;
+  padding: 10px 40px 10px 40px;
+  background-color: rgb(228, 202, 228);
+
+  h2 {
+    grid-row: 1; 
+    grid-column: 1; 
+    align-self: center; 
+    font-size: 30px;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+    color: white;
+  }
+
+  h3 {
+    grid-row: 1; 
+    grid-column: 2; 
+    align-self: center;
+    text-align: end;
+    margin-bottom: 20px; 
+    font-size: 20px;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+    color: white;
+  }
+
+  .nome {
+    grid-row: 2; 
+    grid-column: 1; 
+    align-self: start; 
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+  }
+
+  .email {
+    grid-row: 2; 
+    grid-column: 1; 
+    align-self: end; 
+    color: white;
+    font-size: 20px;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+  }
+
+  nav {
+    grid-row: 2; 
+    grid-column: 2; 
+    align-self: end; 
+    text-align: end;
+    margin-bottom: 40px; 
+
+    ul{
+      list-style: none;
+
+      li{
+
+        a{
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          background-color: rgb(255, 255, 255);
+          border: 2px solid rgb(0, 0, 0);
+          border-radius: 0;
+          padding: 30px;
+        
+        }
+        
+        & :hover{
+            background-color: rgb(116, 26, 114);
+            color: white;
+          }
+      }
+    }
+  }
+}
