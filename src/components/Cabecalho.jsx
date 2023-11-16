@@ -23,7 +23,7 @@ if(sessionStorage.getItem("token-user")){
           <h2>BG</h2>
           <h3>GLOBAL SOLUTION 2023 - ENGENHARIA DE SOFTWARE</h3>
 
-          <p className="nome">Olá {usuario.name}</p>
+          <p className="nome">Olá, {usuario.name}!</p>
           <p className="email">{usuario.email}</p>
 
           <nav>
