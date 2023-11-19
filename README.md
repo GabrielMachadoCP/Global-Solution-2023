@@ -6,7 +6,7 @@
 - npm run churros
 
 # Link para o projeto no netlify:
-- https://global-solution-bg.netlify.app/
+- https://cuidarbem.netlify.app/
 
 # Usuários e senhas
 (Todos os usuários e senhas são encontrados no db.json) Alguns Exemplos:
