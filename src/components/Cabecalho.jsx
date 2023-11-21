@@ -20,29 +20,30 @@ if(sessionStorage.getItem("token-user")){
   return (
     <>
       <header>
-          <h2>BG</h2>
-          <h3>GLOBAL SOLUTION 2023 - ENGENHARIA DE SOFTWARE</h3>
+        <img src="../img/logo.png" alt="logo" />
+        <h2>Cuidar Bem</h2>
+        <h3>GLOBAL SOLUTION 2023 - ENGENHARIA DE SOFTWARE</h3>
 
-          <p className="nome">Olá {usuario.name}</p>
-          <p className="email">{usuario.email}</p>
+        <p className="nome">Olá {usuario.name}</p>
+        <p className="email">{usuario.email}</p>
 
-          <nav>
-            <ul>
-              <li>
-                <Link to="/login" className={rotaAtual.pathname === '/login' ? 'active' : ''} onClick={handleLogout}>LOGOUT</Link>
-              </li>
-            </ul>
-          </nav>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/login" className={rotaAtual.pathname === '/login' ? 'active' : ''} onClick={handleLogout}>LOGOUT</Link>
+            </li>
+          </ul>
+        </nav>
       </header>
     </>
   )
   } else{
     return (
       <>
-          <header>
-            <h2>BG</h2>
-            <h3>GLOBAL SOLUTION 2023 - ENGENHARIA DE SOFTWARE</h3>
-          </header> 
+        <header className="cabecalhoLogin">
+          <img src="../img/logo.png" alt="logo" />
+          <h2>Cuidar Bem</h2>
+        </header> 
       </>
     )
   }
