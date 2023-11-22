@@ -13,7 +13,7 @@
 }
 
 .formulario {
-  background-color: rgb(228, 202, 228);
+  background-color: var(--bg-primary);
   display: flex;
   flex-direction: column; 
   justify-content: center;

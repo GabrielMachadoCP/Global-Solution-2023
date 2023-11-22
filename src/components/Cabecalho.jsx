@@ -20,12 +20,15 @@ if(sessionStorage.getItem("token-user")){
   return (
     <>
       <header>
-        <img src="../img/logo.png" alt="logo" />
-        <h2>Cuidar Bem</h2>
-        <h3>GLOBAL SOLUTION 2023 - ENGENHARIA DE SOFTWARE</h3>
+        <div className="nossoLogo">
+          <img src="../img/logo.png" alt="logo" />
+          <h2>Cuidar Bem</h2>
+        </div>
 
-        <p className="nome">Olá {usuario.name}</p>
-        <p className="email">{usuario.email}</p>
+        <div className="infoUsuarios">
+          <p className="nome">Olá, {usuario.name}!</p>
+          <p className="email">E-mail: {usuario.email}</p>
+        </div>
 
         <nav>
           <ul>
@@ -40,7 +43,7 @@ if(sessionStorage.getItem("token-user")){
   } else{
     return (
       <>
-        <header className="cabecalhoLogin">
+        <header className="nossoLogo">
           <img src="../img/logo.png" alt="logo" />
           <h2>Cuidar Bem</h2>
         </header> 

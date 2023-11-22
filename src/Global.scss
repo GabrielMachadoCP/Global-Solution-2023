@@ -1,10 +1,13 @@
-html{
-    background-color: rgb(228, 202, 228); 
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--bg-primary);
+}
 
-    div{
-        background-color: rgb(228, 202, 228);  
-    }
+:root{
+    --bg-primary: whitesmoke;
+    --color-primary: rgb(228, 202, 228);
+    --color-secundary: rgb(82, 157, 175);
+    --fontColor-primary: white;
 }
