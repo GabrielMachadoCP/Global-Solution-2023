@@ -78,7 +78,7 @@ export default function Login() {
           
         } else {
           //Limpando o form caso a validação falhe
-          setMsgstatus("Usuário e ou Senha incorretos!");
+          setMsgstatus("Usuário e/ou Senha incorretos!");
             
           setTimeout(()=>{
 

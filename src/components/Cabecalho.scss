@@ -1,11 +1,17 @@
 header {
-  display: flex;
+  display: grid;
   justify-content: space-between;
+  grid-template-columns: 300px 300px 200px;
   align-items: center;
   height: 90px;
   background-color: var(--color-primary);
+  border-bottom: 3px solid var(--color-secundary);
+  grid-template-areas: 
+    'nossoLogo nossoLogo infoUsuarios infoUsuarios nav'
+  ;
 
   .nossoLogo {
+    grid-area: nossoLogo;
     margin: 10px;
     background-color: var(--color-primary);
     display: flex;
@@ -32,9 +38,11 @@ header {
   }
 
   .infoUsuarios {
+    grid-area: infoUsuarios;
     margin: 10px;
     background-color: var(--color-primary);
     display: flex;
+    justify-self: center;
     flex-direction: column;
     margin-right: 10px;
 
@@ -58,6 +66,7 @@ header {
   }
 
   nav {
+    grid-area: nav;
     margin: 10px;
     text-align: end;
     align-items: center;
@@ -68,14 +77,15 @@ header {
 
       li{
         align-items: center;
+        background-color: var(--color-primary);
         
         a{
           text-decoration: none;
           color: rgb(0, 0, 0);
           background-color: rgb(255, 255, 255);
-          border: 2px solid rgb(0, 0, 0);
+          border: 2px solid rgb(88, 66, 88);
           border-radius: 25px;
-          padding: 30px;
+          padding: 20px;
           align-items: center;
         }
         
@@ -87,3 +97,6 @@ header {
     }
   }
 }
+
+//MUDAR A RESPONSIVIDADE EM :
+//800
