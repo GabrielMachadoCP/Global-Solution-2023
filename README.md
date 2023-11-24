@@ -1,5 +1,9 @@
 # Cuidar Bem
 
+## Equipe (1ESPG)
+- Bianca Carvalho Dancs Firsoff     - RM 551645
+- Gabriel Machado Carrara Pimentel  - RM 99880
+
 ## Passo a passo para o acesso
 1. npm install
 2. npm run dev
@@ -26,7 +30,3 @@
    SENHA: 551645
 2. LOGIN: gabriel@fiap.com
    SENHA: 99880
-
-## Equipe (1ESPG)
-- Bianca Carvalho Dancs Firsoff     - RM 551645
-- Gabriel Machado Carrara Pimentel  - RM 99880
