@@ -95,6 +95,7 @@ main{
   main{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 
     .principal{
@@ -102,8 +103,16 @@ main{
       float: none;
 
       img{
-        margin-bottom: 15px;
-        width: 70%;
+        margin: 0;
+        width: 90%;
+      }
+
+      h2{
+        margin: 0;
+      }
+
+      p{
+        margin: 0;
       }
     }
 
