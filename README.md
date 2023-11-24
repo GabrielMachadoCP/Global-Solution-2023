@@ -14,6 +14,9 @@
 ## Link para o projeto no netlify
 - https://cuidarbem.netlify.app/
 
+## Link para o repositório no GITHUB
+- https://github.com/GabrielMachadoCP/Global-Solution-2
+
 ## Usuários e senhas 
 - Todos os usuários e senhas são encontrados no db.json
 
