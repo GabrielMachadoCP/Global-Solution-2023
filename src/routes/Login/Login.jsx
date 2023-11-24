@@ -28,7 +28,7 @@ export default function Login() {
 
         if(msgstatus == "Login realizado com SUCESSO!!"){
             setClassStatus("login-sucesso");
-        }else if(msgstatus == "Usuário e ou Senha incorretos!"){
+        }else if(msgstatus == "Usuário e/ou Senha incorretos!"){
           setClassStatus("login-erro");
         }else{
           setClassStatus("login");
@@ -90,7 +90,7 @@ export default function Login() {
               });
 
               window.location = "/";
-            },2000);
+            },4000);
           
         }
       } else {
@@ -109,6 +109,11 @@ export default function Login() {
   return (
     <>
       <div className="formulario">
+        <div className="intro">
+          <h1>Cuidar Bem</h1>
+          <h2 className="hagaDois">Monitorando sua saúde de longe</h2>
+        </div>
+
         <h2 className={classStatus}>{msgstatus}</h2> 
 
         <form onSubmit={handleSubmit}>

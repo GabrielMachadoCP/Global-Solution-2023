@@ -98,5 +98,29 @@ header {
   }
 }
 
+.nossoLogoDois{
+  display: flex;
+  justify-content: start;
+  padding-left: 15px;
+
+  h2 {
+    padding-left: 10px;
+    align-self: center; 
+    font-size: 30px;
+    height: 30px;
+    text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+    color: var(--fontColor-primary);
+    background-color: var(--color-primary);
+  }
+
+  img{
+    align-items: start;
+    width: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+}
+
 //MUDAR A RESPONSIVIDADE EM :
 //800

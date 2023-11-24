@@ -43,7 +43,7 @@ if(sessionStorage.getItem("token-user")){
   } else{
     return (
       <>
-        <header className="nossoLogo">
+        <header className="nossoLogoDois">
           <img src="../img/logo.png" alt="logo" />
           <h2>Cuidar Bem</h2>
         </header> 
