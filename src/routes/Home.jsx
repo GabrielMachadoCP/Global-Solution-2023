@@ -11,7 +11,7 @@ export default function Home() {
 
           <h2>Cuidar Bem, Monitorando sua saúde de longe</h2>
 
-          <p>O projeto surgiu após um dos integrantes perder a melhor amiga durante o processo de insight do que seria produzido. A ideia de monitoramento das pessoas, principalemente daquelas que moram sozinhas/estarão sozinhas no período que estão doentes, para não acontecer mortes por negligência médica.</p>
+          <p>O projeto surgiu após um dos integrantes perder a melhor amiga durante o processo de insight do que seria produzido. A ideia de monitoramento das pessoas, principalmente daquelas que moram sozinhas/estarão sozinhas no período que estão doentes, para não acontecer mortes por negligência médica.</p>
         </section>
           
         {/* Parte direita da página */}
