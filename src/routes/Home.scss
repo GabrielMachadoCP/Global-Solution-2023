@@ -10,7 +10,6 @@ main{
     padding: 0px 20px 20px 20px;
     box-sizing: border-box;
     float: left;
-    padding-right: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,14 +22,15 @@ main{
     }
 
     h2{
-      margin-top: 20px;
+      margin-top: 1%;
       color: var(--color-secundary);
       text-shadow: -1px -1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, 1px 1px 1px #000;
+      text-align: center;
     }
 
     p{
       text-align: justify;
-      margin-top: 10px;
+      margin-top: 1%;
     }
   }
 
@@ -87,6 +87,41 @@ main{
       p{
         background-color: var(--color-secundary);
       }
+    }
+  }
+}
+
+@media screen and (max-width: 865px){
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .principal{
+      width: 90%;
+      float: none;
+
+      img{
+        margin-bottom: 15px;
+        width: 70%;
+      }
+    }
+
+    .detalhes{
+      width: 90%;
+      min-height: 400px;
+
+      div{
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 690px){
+  main{
+    .vantagens{
+      flex-direction: column;
     }
   }
 }
